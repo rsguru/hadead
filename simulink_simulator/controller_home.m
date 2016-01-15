@@ -23,7 +23,7 @@ end
 function v_c=controller_home_(uu,P)
 
     % process inputs to function
-    % robots - own team
+    % robots - own team The Humans are Dead
     for i=1:P.num_robots,
         robot(:,i)   = uu(1+3*(i-1):3+3*(i-1));
     end
